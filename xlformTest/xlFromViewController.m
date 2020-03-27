@@ -26,8 +26,8 @@
     [super viewDidLoad];
     [self setUp];
     // 监听通知
-    NSNotificationCenter *center = [NSNotificationCenter defaultCenter];
-    [center addObserver:self selector:@selector(saveClick) name:@"updataalterPswNotification" object:nil];
+//    NSNotificationCenter *center = [NSNotificationCenter defaultCenter];
+//    [center addObserver:self selector:@selector(saveClick) name:@"updataalterPswNotification" object:nil];
 }
 
 - (void)dealloc
